@@ -18,11 +18,12 @@
             <input type="text" id="text" placeholder="Add a new task">
         </div>
 
-        <div class="to-dos" id="items">
-            <!-- pupulating tasks through javaScript  -->
+        <div class="To-dos" id="items" draggable="true" ondragstart="dragStart(event)" ondragover="dragOver(event)"
+            ondrop="drop(event)">
+            <!-- Todo item content -->
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="/dist/script.js"></script>
 </body>
 
 </html>

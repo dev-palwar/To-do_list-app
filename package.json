@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "script.ts",
+    "dev": "ts-node-dev script.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
