@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(bg.webp);
+    background-image: url(/images/bg.webp);
     background-size: cover;
     color: black;
     display: flex;
