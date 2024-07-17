@@ -94,3 +94,8 @@ h3 {
 .check-box {
     cursor: pointer;
 }
+
+#items {
+    height: 83%;
+    overflow: scroll;
+}
