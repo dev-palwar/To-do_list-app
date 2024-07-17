@@ -8,9 +8,7 @@
     "jsx": "react-jsx",
     "outDir": "./dist",
     "rootDir": "./",
-    "resolveJsonModule": true,
-    "isolatedModules": true
-  },
+    "resolveJsonModule": true  },
   "include": ["./**/*"],
   "exclude": ["node_modules", "dist"]
 }
