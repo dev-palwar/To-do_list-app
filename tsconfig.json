@@ -6,9 +6,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "react-jsx",
-    "outDir": "./dist",
+    "outDir": "public",
     "rootDir": "./",
     "resolveJsonModule": true  },
   "include": ["./**/*"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "public"]
 }
