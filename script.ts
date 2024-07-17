@@ -77,5 +77,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   showTodos();
 });
-
-export {};

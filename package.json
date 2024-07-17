@@ -1,15 +1,14 @@
 {
-  "name": "todo-list-app",
-  "version": "1.0.0",
   "scripts": {
     "build": "tsc",
-    "start": "serve dist"
-  },
-  "dependencies": {
-    "typescript": "^4.0.0"
+    "start": "script.ts",
+    "dev": "ts-node-dev script.ts"
   },
   "devDependencies": {
-    "ts-node": "^9.0.0",
-    "serve": "^11.3.2"
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }

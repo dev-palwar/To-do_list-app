@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const todoItems = "todoItems";
 document.addEventListener("DOMContentLoaded", () => {
     const inputBox = document.getElementById("text");
