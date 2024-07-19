@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(bg.webp);
+    background-image: url(../src/assets/bg.webp);
     background-size: cover;
     color: black;
     display: flex;
@@ -90,6 +90,7 @@ h3 {
     font-size: 16px;
     cursor: pointer;
 }
-.check-box{
+
+.check-box {
     cursor: pointer;
 }
