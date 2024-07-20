@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(assets/bg.webp);
+    background-image: url(https://wallpapercave.com/wp/wp7452264.png);
     background-size: cover;
     color: black;
     display: flex;
@@ -12,6 +12,7 @@ body {
     align-items: center;
     height: 67vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-position-y: 6rem;
 }
 
 .container {
