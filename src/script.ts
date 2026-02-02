@@ -42,9 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <input type="checkbox" class="check-box" onclick="updateStatus(this)" id="${index}" ${
         element.status ? "checked" : ""
       }>
-        <h3 class="taskDetail ${element.status ? "done" : ""}">${
+        <p class="taskDetail ${element.status ? "done" : ""}">${
         element.name
-      }</h3>
+      }</p>
         <i class="fa-solid fa-trash options" onclick="deleteTodo(${index})"></i>
       </div>`;
     });
