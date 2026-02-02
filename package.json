@@ -1,6 +1,9 @@
 {
   "name": "to-do-app",
   "version": "2.0.0",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open"
